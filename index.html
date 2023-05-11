@@ -88,10 +88,9 @@ li {
 .button-wrapper {
   position: fixed;
   top: 20px;
-  right: 20px;
+  left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 
 .button {
@@ -111,6 +110,37 @@ li {
 .button:last-child {
   margin-bottom: 0;
 }
+.buttonup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0077cc;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.buttonup:hover {
+  background-color: #005ea3;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+.buttonup:last-child {
+  margin-right: 0;
+}
+
+.buttonup.upload {
+  background-color: #8BC34A;
+}
+
+.buttonup.upload:hover {
+  background-color: #689F38;
+}
 
 
 
@@ -126,7 +156,9 @@ li {
 <li><a href="https://www.youtube.com/watch?v=451TYP9Uj00">Great skills and chainsaw</a></li>
 <li><a href="https://www.youtube.com/watch?v=IynCmdJ9GHs">SPY×FAMILY</a></li>
 </ul>
+<a class="buttonup" href="https://github.com/Vincent550102/pornhub.mov/pulls">+ Upload Yours</a>
 </div>
+
 
 <div class="button-wrapper">
 <a class="button" href="https://vincent55.tw/contacts/">Contact Me</a>
